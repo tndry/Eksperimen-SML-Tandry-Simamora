@@ -42,14 +42,11 @@ def preprocess(raw_data_path, output_dir):
 
 if __name__ == '__main__':
     # Blok ini akan dieksekusi jika skrip dijalankan secara langsung
-    
-    # Tentukan path input (data mentah) dan direktori output (data bersih)
-    # Path ini relatif terhadap lokasi file automate_Nama-Anda.py di dalam folder 'preprocessing'
-    raw_path = '../heart_attack_raw/Heart Attack.csv'
-    output_directory = './namadataset_preprocessing'
+    raw_path = 'heart_attack_raw/Heart Attack.csv' # 
+    output_directory = 'preprocessing/namadataset_preprocessing'
     
     # Panggil fungsi preprocessing
     preprocess(raw_data_path=raw_path, output_dir=output_directory)
 
 
-# Trigger Workflow
+# Trigger Workflow test
