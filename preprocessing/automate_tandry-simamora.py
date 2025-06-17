@@ -52,3 +52,6 @@ if __name__ == '__main__':
     
     # Panggil fungsi preprocessing
     preprocess(raw_data_path=raw_path, output_dir=output_directory)
+
+
+# Test trigger workflow
