@@ -1,5 +1,3 @@
-# Nama file: automate_Nama-Anda.py
-
 import pandas as pd
 import numpy as np
 import os
@@ -54,4 +52,4 @@ if __name__ == '__main__':
     preprocess(raw_data_path=raw_path, output_dir=output_directory)
 
 
-# Test trigger workflow
+# Trigger Workflow
