@@ -9,7 +9,7 @@ def preprocess(raw_data_path, output_dir):
         print(f"Direktori dibuat: {output_dir}")
 
     # 1. Memuat dataset
-    df = pd.read_csv("../heart_attack_raw/Heart Attack.csv")
+    df = pd.read_csv("heart_attack_raw/Heart Attack.csv")
     print("Dataset mentah berhasil dimuat.")
 
     # Membuat salinan untuk menghindari modifikasi dataframe asli secara tidak sengaja
