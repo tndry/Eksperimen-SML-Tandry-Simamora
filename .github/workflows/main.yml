@@ -30,7 +30,7 @@ jobs:
           pip install pandas numpy
 
       - name: Run Preprocessing Script
-        run: python preprocessing/automate_Nama-Anda.py
+        run: python preprocessing/automate_tandry-simamora.py
 
       - name: Upload Processed Dataset Artifact
         uses: actions/upload-artifact@v4
