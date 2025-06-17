@@ -11,7 +11,7 @@ def preprocess(raw_data_path, output_dir):
         print(f"Direktori dibuat: {output_dir}")
 
     # 1. Memuat dataset
-    df = pd.read_csv("../heart_attack_raw/Heart Attack.csv")
+    df = pd.read_csv("heart_attack_raw/Heart Attack.csv")
     print("Dataset mentah berhasil dimuat.")
 
     # Membuat salinan untuk menghindari modifikasi dataframe asli secara tidak sengaja
@@ -47,8 +47,8 @@ if __name__ == '__main__':
     
     # Tentukan path input (data mentah) dan direktori output (data bersih)
     # Path ini relatif terhadap lokasi file automate_Nama-Anda.py di dalam folder 'preprocessing'
-    raw_path = '../heart_attack_raw/Heart Attack.csv'
-    output_directory = './namadataset_preprocessing'
+    raw_path = 'heart_attack_raw/Heart Attack.csv'
+    output_directory = 'preprocessing/namadataset_preprocessing'
     
     # Panggil fungsi preprocessing
     preprocess(raw_data_path=raw_path, output_dir=output_directory)
