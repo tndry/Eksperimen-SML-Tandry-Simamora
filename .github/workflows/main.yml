@@ -12,7 +12,6 @@ jobs:
   run-preprocessing:
     # Menentukan sistem operasi untuk menjalankan job
     runs-on: ubuntu-latest
-
     
     steps:
       - name: Checkout Repository
